@@ -23,7 +23,7 @@ spring:
               interval:
                 ms: 1000
     function:
-      definition: pageEventConsumer; pageEventSupplier
+      definition: pageEventConsumer; pageEventSupplier; kStreamKStreamFunction
   integration:
     poller:
       fixed-delay: 100
